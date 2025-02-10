@@ -1,0 +1,192 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background-color: #ffcccc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-profiles {
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff4d4d;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.hidden {
+    display: none;
+}
+
+.messages, .video {
+    margin-top: 20px;
+}
+
+.message {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ff9999;
+    color: white;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+messages, .gallery, .video, .comments {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ff9999;
+    color: white;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comments-section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+} 
+/* body {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff4d4d;
+}
+
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.hidden {
+    display: none;
+}
+
+.messages, .gallery, .video, .comments {
+    margin-top: 20px;
+}
+
+.images img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.images img:hover {
+    transform: scale(1.1);
+}
+
+.message {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ff9999;
+    color: white;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#comments-section {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+} */
